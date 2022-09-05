@@ -4,7 +4,7 @@
 
 """
 from six import string_types
-from collections import Mapping, Sequence, Set
+from collections.abc import Mapping, Sequence, Set
 
 class Staged(object):
     obj = None
